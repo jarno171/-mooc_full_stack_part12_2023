@@ -1,0 +1,46 @@
+Script started on 2023-01-08 14:23:57+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="110" LINES="26"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;jarnul@LAPTOP-2OI4FT68: ~/mooc_full_stack_part12_2023/script-answers[01;32mjarnul@LAPTOP-2OI4FT68[00m:[01;34m~/mooc_full_stack_part12_2023/script-answers[00m$ [7mdocker container run hello-world[27mdocker container run hello-world
+[?2004lUnable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+
+[1A[2K2db29710123e: Pulling fs layer [1B[1A[2K2db29710123e: Downloading     758B/2.479kB[1B[1A[2K2db29710123e: Downloading  2.479kB/2.479kB[1B[1A[2K2db29710123e: Verifying Checksum [1B[1A[2K2db29710123e: Download complete [1B[1A[2K2db29710123e: Extracting  2.479kB/2.479kB[1B[1A[2K2db29710123e: Extracting  2.479kB/2.479kB[1B[1A[2K2db29710123e: Pull complete [1BDigest: sha256:94ebc7edf3401f299cd3376a1669bc0a49aef92d6d2669005f9bc5ef028dc333
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+[?2004h]0;jarnul@LAPTOP-2OI4FT68: ~/mooc_full_stack_part12_2023/script-answers[01;32mjarnul@LAPTOP-2OI4FT68[00m:[01;34m~/mooc_full_stack_part12_2023/script-answers[00m$ [7mdocker run -it ubuntu bash[27mdocker run -it ubuntu bash
+[?2004lUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K6e3729cf69e0: Pulling fs layer [1B[1A[2K6e3729cf69e0: Downloading  310.6kB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  933.2kB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  1.244MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  1.867MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading   2.49MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  3.112MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  3.735MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  4.357MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading   4.98MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  5.603MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  6.225MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  6.848MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading   7.47MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  8.093MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  8.716MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  9.338MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  9.961MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading   10.9MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  11.84MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  12.46MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  13.09MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  13.71MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  14.33MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  14.95MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  15.58MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  16.21MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  16.83MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  17.46MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  18.08MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading   18.7MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  19.64MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  20.58MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading   21.2MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  22.13MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  23.07MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading     24MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  24.94MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  25.56MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  26.18MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  27.12MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  27.75MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  28.68MB/30.43MB[1B[1A[2K6e3729cf69e0: Downloading  29.62MB/30.43MB[1B[1A[2K6e3729cf69e0: Verifying Checksum [1B[1A[2K6e3729cf69e0: Download complete [1B[1A[2K6e3729cf69e0: Extracting  327.7kB/30.43MB[1B[1A[2K6e3729cf69e0: Extracting  1.638MB/30.43MB[1B[1A[2K6e3729cf69e0: Extracting  2.621MB/30.43MB[1B[1A[2K6e3729cf69e0: Extracting  3.604MB/30.43MB[1B[1A[2K6e3729cf69e0: Extracting   4.26MB/30.43MB[1B[1A[2K6e3729cf69e0: Extracting  5.571MB/30.43MB[1B[1A[2K6e3729cf69e0: Extracting  6.881MB/30.43MB[1B[1A[2K6e3729cf69e0: Extracting  8.847MB/30.43MB[1B[1A[2K6e3729cf69e0: Extracting   11.8MB/30.43MB[1B[1A[2K6e3729cf69e0: Extracting   15.4MB/30.43MB[1B[1A[2K6e3729cf69e0: Extracting  19.33MB/30.43MB[1B[1A[2K6e3729cf69e0: Extracting  22.94MB/30.43MB[1B[1A[2K6e3729cf69e0: Extracting  26.21MB/30.43MB[1B[1A[2K6e3729cf69e0: Extracting  27.85MB/30.43MB[1B[1A[2K6e3729cf69e0: Extracting  29.82MB/30.43MB[1B[1A[2K6e3729cf69e0: Extracting  30.43MB/30.43MB[1B[1A[2K6e3729cf69e0: Pull complete [1BDigest: sha256:27cb6e6ccef575a4698b66f5de06c7ecd61589132d5a91d098f7f3f9285415a9
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@008aa3b95018: /root@008aa3b95018:/# [K]0;root@008aa3b95018: /root@008aa3b95018:/# mkdir /usr/a src/app
+[?2004l[?2004h]0;root@008aa3b95018: /root@008aa3b95018:/# touch us  /usr/src/app/index.js
+[?2004l[?2004h]0;root@008aa3b95018: /root@008aa3b95018:/# [Kexit
+[?2004lexit
+[?2004h]0;jarnul@LAPTOP-2OI4FT68: ~/mooc_full_stack_part12_2023/script-answers[01;32mjarnul@LAPTOP-2OI4FT68[00m:[01;34m~/mooc_full_stack_part12_2023/script-answers[00m$ exit
+[?2004lexit
+
+Script done on 2023-01-08 14:25:38+02:00 [COMMAND_EXIT_CODE="0"]
