@@ -1,0 +1,155 @@
+Script started on 2023-01-14 09:20:10+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="110" LINES="26"]
+[?2004h]0;jarnul@LAPTOP-2OI4FT68: ~/mooc_full_stack_part12_2023/script-answers[01;32mjarnul@LAPTOP-2OI4FT68[00m:[01;34m~/mooc_full_stack_part12_2023/script-answers[00m$ cd ..
+[?2004l[?2004h]0;jarnul@LAPTOP-2OI4FT68: ~/mooc_full_stack_part12_2023[01;32mjarnul@LAPTOP-2OI4FT68[00m:[01;34m~/mooc_full_stack_part12_2023[00m$ cd todo-app/todo-backend/
+[?2004l[?2004h]0;jarnul@LAPTOP-2OI4FT68: ~/mooc_full_stack_part12_2023/todo-app/todo-backend[01;32mjarnul@LAPTOP-2OI4FT68[00m:[01;34m~/mooc_full_stack_part12_2023/todo-app/todo-backend[00m$ docker-compose -f docker-compose.d ev.yml up -d
+[?2004l[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠋ Network todo-backend_default  Creating                                                                0.1s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠙ Network todo-backend_default  Creating                                                                0.2s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠹ Network todo-backend_default  Creating                                                                0.3s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠸ Network todo-backend_default  Creating                                                                0.4s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠼ Network todo-backend_default  Creating                                                                0.5s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠴ Network todo-backend_default  Creating                                                                0.6s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠦ Network todo-backend_default  Creating                                                                0.7s
+[0m[?25h[1A[1A[0G[?25l[+] Running 0/1
+[37m ⠧ Network todo-backend_default  Creating                                                                0.8s
+[0m[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠋ Container todo-backend-mongo-1  Creating                                                              0.0s
+[0m[37m ⠋ Container todo-backend-redis-1  Creating                                                              0.0s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              0.1s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              0.1s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              0.2s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              0.2s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              0.3s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              0.3s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              0.4s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              0.4s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              0.5s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              0.5s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              0.6s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              0.6s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              0.7s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              0.7s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              0.8s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              0.8s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              0.9s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              0.9s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              1.0s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              1.0s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              1.1s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              1.1s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              1.2s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              1.2s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              1.3s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              1.3s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              1.4s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              1.4s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              1.5s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              1.5s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              1.6s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              1.6s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              1.7s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              1.7s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              1.8s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              1.8s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              1.9s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              1.9s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              2.0s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              2.0s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              2.1s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              2.1s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 1/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              2.2s
+[0m[37m ⠿ Container todo-backend-redis-1  Starting                                                              2.2s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[37m ⠿ Container todo-backend-mongo-1  Starting                                                              2.3s
+[0m[34m ⠿ Container todo-backend-redis-1  Started                                                               2.3s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+[34m ⠿ Network todo-backend_default    Created                                                               0.9s
+[0m[34m ⠿ Container todo-backend-mongo-1  Started                                                               2.4s
+[0m[34m ⠿ Container todo-backend-redis-1  Started                                                               2.3s
+[0m[?25h[?2004h]0;jarnul@LAPTOP-2OI4FT68: ~/mooc_full_stack_part12_2023/todo-app/todo-backend[01;32mjarnul@LAPTOP-2OI4FT68[00m:[01;34m~/mooc_full_stack_part12_2023/todo-app/todo-backend[00m$ docker contrain[K[K[K[Kainer ls
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS                     NAMES
+7d8fefa93d40   mongo     "docker-entrypoint.s…"   16 seconds ago   Up 13 seconds   0.0.0.0:3456->27017/tcp   todo-backend-mongo-1
+7212407e1df4   redis     "docker-entrypoint.s…"   16 seconds ago   Up 13 seconds   0.0.0.0:6379->6379/tcp    todo-backend-redis-1
+[?2004h]0;jarnul@LAPTOP-2OI4FT68: ~/mooc_full_stack_part12_2023/todo-app/todo-backend[01;32mjarnul@LAPTOP-2OI4FT68[00m:[01;34m~/mooc_full_stack_part12_2023/todo-app/todo-backend[00m$ docker exec -it 721 bash
+[?2004l[?2004hroot@7212407e1df4:/data# redis-cli
+[?2004l127.0.0.1:6379> [0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> KE[18C[0K127.0.0.1:6379> KEY[19C[0K127.0.0.1:6379> KEYS[0;90;49m pattern[0m[20C[0K127.0.0.1:6379> KEYS [0;90;49mpattern[0m[21C[0K127.0.0.1:6379> KEYS *[0;90;49m [0m[22C[0K127.0.0.1:6379> KEYS *[22C
+(empty array)
+127.0.0.1:6379> [0K127.0.0.1:6379> KEYS *[0;90;49m [0m[22C[0K127.0.0.1:6379> KEYS *[22C
+1) "added_todos"
+127.0.0.1:6379> [0K127.0.0.1:6379> KEYS *[0;90;49m [0m[22C[0K127.0.0.1:6379> KEYS *[22C
+1) "added_todos"
+127.0.0.1:6379> [0K127.0.0.1:6379> G[17C[0K127.0.0.1:6379> GE[18C[0K127.0.0.1:6379> GET[0;90;49m key[0m[19C[0K127.0.0.1:6379> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6379> GET a[0;90;49m [0m[21C[0K127.0.0.1:6379> GET ad[0;90;49m [0m[22C[0K127.0.0.1:6379> GET add[0;90;49m [0m[23C[0K127.0.0.1:6379> GET adde[0;90;49m [0m[24C[0K127.0.0.1:6379> GET added[0;90;49m [0m[25C[0K127.0.0.1:6379> GET added_[0;90;49m [0m[26C[0K127.0.0.1:6379> GET added_t[0;90;49m [0m[27C[0K127.0.0.1:6379> GET added_to[0;90;49m [0m[28C[0K127.0.0.1:6379> GET added_tod[0;90;49m [0m[29C[0K127.0.0.1:6379> GET added_todo[0;90;49m [0m[30C[0K127.0.0.1:6379> GET added_todos[0;90;49m [0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"2"
+127.0.0.1:6379> [0K127.0.0.1:6379> S[17C[0K127.0.0.1:6379> SE[18C[0K127.0.0.1:6379> SET[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-[0m[19C[0K127.0.0.1:6379> SET [0;90;49mkey value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-[0m[20C[0K127.0.0.1:6379> SET a[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-mi[0m[21C[0K127.0.0.1:6379> SET ad[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-m[0m[22C[0K127.0.0.1:6379> SET add[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-[0m[23C[0K127.0.0.1:6379> SET adde[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time[0m[24C[0K127.0.0.1:6379> SET added[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-tim[0m[25C[0K127.0.0.1:6379> SET added_[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-ti[0m[26C[0K127.0.0.1:6379> SET added_t[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-t[0m[27C[0K127.0.0.1:6379> SET added_to[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-[0m[28C[0K127.0.0.1:6379> SET added_tod[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix[0m[29C[0K127.0.0.1:6379> SET added_todo[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT uni[0m[30C[0K127.0.0.1:6379> SET added_todos[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT un[0m[31C[0K127.0.0.1:6379> SET added_todos [0;90;49mvalue [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT un[0m[32C[0K127.0.0.1:6379> SET added_todos 9[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-t[0m[33C[0K127.0.0.1:6379> SET added_todos 90[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-[0m[34C[0K127.0.0.1:6379> SET added_todos 900[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix[0m[35C[0K127.0.0.1:6379> SET added_todos 9001[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT uni[0m[36C[0K127.0.0.1:6379> SET added_todos 9001[36C
+OK
+127.0.0.1:6379> [0K127.0.0.1:6379> SET added_todos 9001[0;90;49m [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT uni[0m[36C[0K127.0.0.1:6379> GET added_todos[0;90;49m [0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"9001"
+127.0.0.1:6379> [0K127.0.0.1:6379> GET added_todos[0;90;49m [0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"9002"
+127.0.0.1:6379> [0K127.0.0.1:6379> D[17C[0K127.0.0.1:6379> DE[18C[0K127.0.0.1:6379> DEL[0;90;49m key [key ...][0m[19C[0K127.0.0.1:6379> DEL [0;90;49mkey [key ...][0m[20C[0K127.0.0.1:6379> DEL a[0;90;49m [key ...][0m[21C[0K127.0.0.1:6379> DEL ad[0;90;49m [key ...][0m[22C[0K127.0.0.1:6379> DEL add[0;90;49m [key ...][0m[23C[0K127.0.0.1:6379> DEL adde[0;90;49m [key ...][0m[24C[0K127.0.0.1:6379> DEL added[0;90;49m [key ...][0m[25C[0K127.0.0.1:6379> DEL added_[0;90;49m [key ...][0m[26C[0K127.0.0.1:6379> DEL added_t[0;90;49m [key ...][0m[27C[0K127.0.0.1:6379> DEL added_to[0;90;49m [key ...][0m[28C[0K127.0.0.1:6379> DEL added_tod[0;90;49m [key ...][0m[29C[0K127.0.0.1:6379> DEL added_todo[0;90;49m [key ...][0m[30C[0K127.0.0.1:6379> DEL added_todos[0;90;49m [key ...][0m[31C[0K127.0.0.1:6379> DEL added_todos[31C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> DEL added_todos[0;90;49m [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m [0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+(nil)
+127.0.0.1:6379> [0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> KE[18C[0K127.0.0.1:6379> KEY[19C[0K127.0.0.1:6379> KEYS[0;90;49m pattern[0m[20C[0K127.0.0.1:6379> KEYS [0;90;49mpattern[0m[21C[0K127.0.0.1:6379> KEYS *[0;90;49m [0m[22C[0K127.0.0.1:6379> KEYS *[22C
+(empty array)
+127.0.0.1:6379> [0K127.0.0.1:6379> KEYS *[0;90;49m [0m[22C[0K127.0.0.1:6379> GET added_todos[0;90;49m [0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"1"
+127.0.0.1:6379> [0K127.0.0.1:6379> e[17C[0K127.0.0.1:6379> ex[18C[0K127.0.0.1:6379> exi[19C[0K127.0.0.1:6379> exit[20C[0K127.0.0.1:6379> exit[20C
+[?2004hroot@7212407e1df4:/data# exit
+[?2004lexit
+[?2004h]0;jarnul@LAPTOP-2OI4FT68: ~/mooc_full_stack_part12_2023/todo-app/todo-backend[01;32mjarnul@LAPTOP-2OI4FT68[00m:[01;34m~/mooc_full_stack_part12_2023/todo-app/todo-backend[00m$ exit
+[?2004lexit
+
+Script done on 2023-01-14 09:25:33+02:00 [COMMAND_EXIT_CODE="0"]
