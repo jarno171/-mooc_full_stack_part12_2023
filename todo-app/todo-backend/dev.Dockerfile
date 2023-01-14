@@ -5,6 +5,10 @@ WORKDIR /usr/src/app
 
 COPY . .
 
+ENV PORT=5000
+
+ENV WATCHPACK_POLLING=true
+
 RUN npm ci
 
 CMD npm run dev
