@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-# ENV REACT_APP_BACKEND_URL=http://localhost:3000
+ENV REACT_APP_BACKEND_URL=http://localhost:8080/api
 
 # had to do ugly normal install because I have too old version of npm on my computer, and can't
 # easily change it
