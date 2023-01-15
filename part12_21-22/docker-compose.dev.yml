@@ -2,12 +2,12 @@ version: '3.8'
 
 services:
   backend:
-    image: todo-backend
+    image: blogs-backend
     build:
       context: ./backend/ # The context will pick this directory as the "build context"
       dockerfile: dev.Dockerfile # This will simply tell which dockerfile to read
     ports:
-      - 3003:3003
+      - 3001:3001
     container_name: blogs-backend
 
   frontend:

@@ -9,4 +9,4 @@ ENV PORT=3001
 
 RUN npm ci
 
-CMD npm run dev
+CMD npm start

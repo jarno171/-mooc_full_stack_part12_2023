@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  backend:
+    image: todo-backend-prod
+    build:
+      context: ./backend/ # The context will pick this directory as the "build context"
+      dockerfile: Dockerfile # This will simply tell which dockerfile to read
+    container_name: blogs-backend-prod
+
+  frontend:
+    image: blogs-frontend-prod
+    build:
+      context: ./frontend/ # The context will pick this directory as the "build context"
+      dockerfile: Dockerfile # This will simply tell which dockerfile to read
+    ports:
+      - 3000:3000
+    container_name: blogs-frontend-prod
+
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    container_name: reverse-proxy-blogs
+    depends_on:
+      - frontend # wait for the frontend container to be started
